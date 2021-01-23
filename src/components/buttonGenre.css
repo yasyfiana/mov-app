@@ -1,0 +1,23 @@
+.button {
+    position: absolute;
+    /* z-index: -1; */
+    width: 15px;
+    height: 45px;
+    background: transparant;
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    opacity: 0.15;
+    border: 1.5px solid #12153D;
+    border-radius: 50px;
+    /* margin: theme.spacing(1); */
+    box-sizing: border-box;
+}
+
+.label{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 50;
+    font-size: 10px;
+    line-height: 15px;
+}
