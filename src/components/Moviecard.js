@@ -49,33 +49,7 @@ const MovieCard = () => {
             </div>
          </div>
        </div>
-      // <Card className={classes.root}>
-      //   <CardActionArea>
-      //     <div className={classes.padd}>
-      //       <CardMedia
-      //           component="img"
-      //           alt="Contemplative Reptile"
-      //           height="140"
-      //           image='/poster/archer.jpg'
-      //           title="Contemplative Reptile"
-      //         />
-      //     </div>
-      //     <CardContent>
-      //       <Typography gutterBottom variant="h5" component="h2">
-      //         ARCHER
-      //       </Typography>
-      //       <Grid container>
-      //         <Grid item container>
-      //           <Rating name="rate" defaultValue={1} max={1} readOnly />
-      //         {/* <Rating name="half-rating-read" defaultValue={1} precision={0.5} readOnly /> */}
-      //         </Grid>
-      //         <Grid item Container>
-      //           8.2
-      //         </Grid>
-      //       </Grid>
-      //     </CardContent>
-      //   </CardActionArea>
-      // </Card>
+
      );
 };
 

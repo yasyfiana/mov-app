@@ -23,6 +23,7 @@ const useStyles = makeStyles((theme) => ({
     marginBottom: 12,
   },
   ava: {
+    justifyContent: "center",
     display: 'flex',
     '& > *': {
       margin: theme.spacing(1),
@@ -35,18 +36,17 @@ const CastCard = () =>  {
   // const bull = <span className={classes.bullet}>•</span>;
 
   return (
+    
     <Card className={classes.root} variant="outlined">
         <CardContent>
             <div className={classes.ava}>
                 <Avatar alt="Remy Sharp" src="/Ava/ava.jpeg" />
             </div>
             <Typography className={classes.title} color="textSecondary" gutterBottom>
-                Word of the Day
+                Ken Grate
             </Typography>
             <Typography variant="body2" component="p">
-                well meaning and kindly.
-                <br />
-                {'"a benevolent smile"'}
+                Director
             </Typography>
         </CardContent>
     </Card>

@@ -21,23 +21,24 @@ const CastContain = () =>  {
     // const bull = <span className={classes.bullet}>•</span>;
   
     return (
-        <Grid container direction="column">
+        <Grid container>
             <Grid item container>
                 <Typography variant="h5" component="h2">
                     Cast & Crew
                 </Typography>
             </Grid>
             <Grid item container >
-                <Grid container className={classes.contain}>
-                    <Grid item container>
+                <Grid container className={classes.gridList} >
+                    <Grid item className={classes.padd}>
                         <Cast/>
                     </Grid>
-                    <Grid item container>
+                    <Grid item className={classes.padd}>
                         <Cast/>
                     </Grid>
-                    <Grid item container>
+                    <Grid item className={classes.padd}>
                         <Cast/>
                     </Grid>
+
                 </Grid>
             </Grid>
         </Grid>
