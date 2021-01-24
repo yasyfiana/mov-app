@@ -27,7 +27,7 @@ const MovieCard = () => {
             component="img"
             alt="Contemplative Reptile"
             height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
+            image='/poster/archer.jpg'
             title="Contemplative Reptile"
           />
           <CardContent>
