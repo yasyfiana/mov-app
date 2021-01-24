@@ -43,7 +43,7 @@ const MovieCard = () => {
                     <Rating name="rate" defaultValue={1} max={1} readOnly />
                   </Grid>
                   <Grid item Container>
-                    8.2
+                    8.3
                   </Grid>
               </Grid>
             </div>
