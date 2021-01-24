@@ -8,6 +8,13 @@ const useStyles = makeStyles((theme) => ({
       justifyContent: "start",
       margin: theme.spacing(1),
     },
+    button:{
+        
+    },
+    label:{
+        color: "Black",
+    },
+
   }));
 
 const Type = () => {
@@ -16,13 +23,34 @@ const Type = () => {
     return (
         <Grid container className={classes.contain}>
             <Grid item>
-                <Button color="primary">In Theater</Button>
+                <Button 
+                    classes={{
+                        root: classes.button,
+                        label: classes.label,
+                    }}
+                >
+                    In Theater
+                </Button>
             </Grid>
             <Grid item>
-                <Button color="primary">Box Office</Button>
+                <Button 
+                    classes={{
+                        root: classes.button,
+                        label: classes.label,
+                    }}
+                >
+                    Box Office
+                </Button>
             </Grid>
             <Grid item>
-                <Button color="primary">Coming soon</Button>
+                <Button 
+                    classes={{
+                        root: classes.button,
+                        label: classes.label,
+                    }}
+                >
+                    Coming Soon
+                </Button>
             </Grid>
         </Grid>
     );
